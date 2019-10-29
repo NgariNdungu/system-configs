@@ -1,5 +1,8 @@
 # compose commands
 alias up="docker-compose up"
-alias dexec="docker-compose exec"
-alias drun="docker-compose run"
+alias dcexec="docker-compose exec"
+alias dcrun="docker-compose run"
 alias down="docker-compose down"
+# docker commands
+alias drun="docker run -it --rm"
+alias dexec="docker exec -it"
