@@ -26,7 +26,7 @@ Plugin 'honza/vim-snippets'
 " code commenting
 Plugin 'tomtom/tcomment_vim'
 " match braces
-" Plugin 'jiangmiao/auto-pairs' 
+Plugin 'jiangmiao/auto-pairs' 
 " syntax checking with syntastic
 Plugin 'vim-syntastic/syntastic'
 
@@ -44,6 +44,7 @@ Plugin 'tpope/vim-surround'
 
 call vundle#end() 		" required
 filetype plugin indent on	" required
+syntax on
 
 " non-plugin configs come after
 "

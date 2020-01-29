@@ -6,3 +6,9 @@ alias down="docker-compose down"
 # docker commands
 alias drun="docker run -it --rm"
 alias dexec="docker exec -it"
+alias nuke="yes | docker prune"
+# silver searcher
+# find file
+alias ff="ag -g"
+# find docker-compose services
+alias svc="ag --context=1 services"
