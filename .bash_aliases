@@ -9,6 +9,6 @@ alias dexec="docker exec -it"
 alias nuke="yes | docker image prune"
 # silver searcher
 # find file
-alias ff="ag -g"
+alias ff="ag --hidden -g"
 # find docker-compose services
 alias svc="ag --context=1 services"

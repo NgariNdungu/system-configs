@@ -62,6 +62,8 @@ set hlsearch
 set mouse=a
 " use system clipboard
 set clipboard=unnamedplus
+" show path of current file
+set statusline+=%F
 " snipmate mappings
 " https://github.com/Valloric/YouCompleteMe/issues/47 
 :imap zz <esc>a<Plug>snipMateNextOrTrigger
