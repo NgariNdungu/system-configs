@@ -12,3 +12,7 @@ alias nuke="yes | docker image prune"
 alias ff="ag --hidden -g"
 # find docker-compose services
 alias svc="ag --context=1 services"
+# mocked pbcopy and pbpaste with xclip
+# TODO: skip adding on mac
+alias pbcopy="xclip -selection clip"
+alias pbpaste="xclip -selection clip -out"
