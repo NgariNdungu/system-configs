@@ -21,3 +21,21 @@ Editor, terminal and other configs I would need when setting up a new machine
 cd .vim/bundle/YouCompleteMe
 ./install.py --go-completer --ts-completer
  ```
+
+# bash aliases
+The default `~/.bashrc` file sources `~/.bash_aliases` if it exists. Add a symlink;
+```bash
+ln -s /path/to/system-configs/.bash_aliases ~/.bash_aliases
+source ~/.bash_aliases
+# see all aliases
+alias
+```
+
+## alias package dependencies
+- [the_silver_searcher](https://github.com/ggreer/the_silver_searcher)(mac)/silversearcher-ag(debian based systems)
+- xclip
+- docker
+- docker-compose
+
+# other
+- add `.swp` and `.swo` to global `.gitignore`
