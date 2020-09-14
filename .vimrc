@@ -41,6 +41,8 @@ Plugin 'tpope/vim-surround'
 
 " golang support
 " Plugin 'fatih/vim-go'
+"
+" TODO: https://github.com/dense-analysis/ale
 
 call vundle#end() 		" required
 filetype plugin indent on	" required
