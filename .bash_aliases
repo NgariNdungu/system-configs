@@ -19,5 +19,5 @@ alias pbpaste="xclip -selection clip -out"
 alias b64d="pbpaste | base64 -d"
 alias b64e="pbpaste | base64 --wrap=0"
 # git
-# delete local merged? branches
-alias prune="git branch | grep -v 'master\|release' | xargs git branch -d"
+# delete local pushed branches
+alias prune="git branch | grep -v 'master\|release\|main' | xargs git branch -d"

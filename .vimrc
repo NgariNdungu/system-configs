@@ -43,6 +43,7 @@ Plugin 'tpope/vim-surround'
 " Plugin 'fatih/vim-go'
 "
 " TODO: https://github.com/dense-analysis/ale
+" TODO: https://github.com/justinmk/vim-sneak
 
 call vundle#end() 		" required
 filetype plugin indent on	" required
