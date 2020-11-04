@@ -4,6 +4,10 @@ alias dcexec="docker-compose exec"
 alias dcrun="docker-compose run --rm"
 alias down="docker-compose down"
 
+# docker-sync
+alias dssc="docker-sync-stack clean"
+alias dsss="docker-sync-stack start"
+
 # docker commands
 alias drun="docker run -it --rm"
 alias dexec="docker exec -it"
