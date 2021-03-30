@@ -96,3 +96,5 @@ let g:syntastic_ruby_rubocop_args = "--no-display-cop-names --parallel"
 if executable('ag')
   let g:ackprg = "ag --nogroup --nocolor --column"
 endif
+
+let g:snipMate = { 'snippet_version' : 1 }
