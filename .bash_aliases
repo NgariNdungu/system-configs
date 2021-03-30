@@ -20,7 +20,8 @@ alias ff="ag --hidden -g"
 alias svc="ag --context=1 services"
 
 # mocked pbcopy and pbpaste with xclip
-if ! pbpaste | pbcopy; then
+# https://stackoverflow.com/a/677212
+if ! command -v pbcopy &> /dev/null; then
   alias pbcopy="xclip -selection clip"
   alias pbpaste="xclip -selection clip -out"
 fi
