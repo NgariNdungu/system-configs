@@ -39,6 +39,10 @@ Plugin 'tpope/vim-fugitive'
 " surround
 Plugin 'tpope/vim-surround'
 
+" dbml
+" https://github.com/jidn/vim-dbml
+Plugin 'jidn/vim-dbml'
+
 " golang support
 " Plugin 'fatih/vim-go'
 "
