@@ -1,7 +1,7 @@
 # compose commands
 alias up="docker-compose up"
 alias dcexec="docker-compose exec"
-alias dcrun="docker-compose run --rm"
+alias dcrun="docker-compose run --service-ports --rm"
 alias down="docker-compose down"
 
 # docker-sync
