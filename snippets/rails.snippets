@@ -20,3 +20,6 @@ snippet rma
 # overrides
 snippet! asn
 	assert_not ${1:unexpected}${2:, '${3:Failure message}'}
+
+snippet! vi
+	validates :${1:attribute}, inclusion: { in: ${2:constant_array} }
