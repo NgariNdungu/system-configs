@@ -29,6 +29,8 @@ fi
 # git
 # delete local pushed branches
 alias prune="git branch | grep -v 'master\|release\|main' | xargs git branch -d"
+# get ready for some new work
+alias ghome="git checkout master && git pull && prune"
 
 # TODO: skip adding on mac
 alias b64d="pbpaste | base64 -d"

@@ -1,6 +1,7 @@
 #!/usr/bin/env sh
 
 # adapted from; https://privacyinternational.org/guide-step/4340/linux-setup-dns-level-ad-blocking
+# https://github.com/StevenBlack/hosts
 
 set -e
 
